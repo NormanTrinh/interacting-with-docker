@@ -25,9 +25,9 @@ For example, to set the new location as `/home/$USER/docker` run the following c
 ```
 sudo gedit /etc/docker/daemon.json
 ```
-Add the following line:
+Add the following line, **Note**: replace `<Type your user name here>` by your user name
 ```
-"data-root": "/home/$USER/docker"
+"data-root": "/home/<Type your user name here>/docker"
 ```
 
 ## 6. Start the Docker service.
