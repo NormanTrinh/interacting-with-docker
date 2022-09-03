@@ -1,4 +1,6 @@
-Source: https://www.ibm.com/docs/en/cloud-private/3.1.1?topic=pyci-specifying-default-docker-storage-directory-by-using-bind-mount
+Source: 
+- https://www.ibm.com/docs/en/cloud-private/3.1.1?topic=pyci-specifying-default-docker-storage-directory-by-using-bind-mount
+- https://www.guguweb.com/2019/02/07/how-to-move-docker-data-directory-to-another-location-on-ubuntu/
 ## 1. Remove all Docker containers and images.
 ```
 sudo docker rm -f $(docker ps -aq); docker rmi -f $(docker images -q)
