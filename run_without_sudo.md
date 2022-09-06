@@ -1,3 +1,15 @@
 Link:
 - https://docs.docker.com/engine/install/linux-postinstall/
-- https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
+
+```
+sudo groupadd docker
+```
+```
+sudo usermod -aG docker $USER
+```
+```
+newgrp docker 
+```
+```
+docker run hello-world
+```
